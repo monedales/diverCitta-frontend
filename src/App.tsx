@@ -10,6 +10,7 @@ import './App.css';
 
 function App() {
   return (
+
     <Router>
       <Navbar />
       <Routes>
@@ -24,9 +25,7 @@ function App() {
 
       </Routes>
       <Footer />
-    </Router>
+    </Router>    
 
   );
 }
-
-export default App;
