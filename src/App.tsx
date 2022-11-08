@@ -21,7 +21,7 @@ function App() {
 
         <Route path="/login" element={<Login />} />
 
-        <Route path="/sobre-nos" element={<Sobre />}
+        <Route path="/sobre-nos" element={<Sobre />} />
 
       </Routes>
       <Footer />
@@ -29,3 +29,5 @@ function App() {
 
   );
 }
+          
+export default App;
