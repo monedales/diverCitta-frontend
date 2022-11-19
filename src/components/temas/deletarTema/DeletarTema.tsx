@@ -30,7 +30,7 @@ function DeletarTema() {
                 closeOnClick: true,
                 pauseOnHover: false,
                 draggable: false,
-                theme: "colored",
+                theme: "light",
                 progress: undefined,
             });
             navigate("/login")
@@ -66,7 +66,7 @@ function DeletarTema() {
             closeOnClick: true,
             pauseOnHover: false,
             draggable: false,
-            theme: "colored",
+            theme: "light",
             progress: undefined,
         });
     }

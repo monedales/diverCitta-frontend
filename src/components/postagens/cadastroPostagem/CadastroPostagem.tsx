@@ -27,7 +27,7 @@ function CadastroPostagem() {
 				closeOnClick: true,
 				pauseOnHover: false,
 				draggable: false,
-				theme: "colored",
+				theme: "light",
 				progress: undefined,
 			});
 			navigate("/login")
@@ -119,7 +119,7 @@ function CadastroPostagem() {
 				closeOnClick: true,
 				pauseOnHover: false,
 				draggable: false,
-				theme: "colored",
+				theme: "light",
 				progress: undefined,
 			});
 		} else {
@@ -135,7 +135,7 @@ function CadastroPostagem() {
 				closeOnClick: true,
 				pauseOnHover: false,
 				draggable: false,
-				theme: "colored",
+				theme: "light",
 				progress: undefined,
 			});
 		}

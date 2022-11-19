@@ -27,7 +27,7 @@ function DeletarPostagem() {
 				closeOnClick: true,
 				pauseOnHover: false,
 				draggable: false,
-				theme: "colored",
+				theme: "light",
 				progress: undefined,
 			});
 			navegate("/login")
@@ -62,7 +62,7 @@ function DeletarPostagem() {
 			closeOnClick: true,
 			pauseOnHover: false,
 			draggable: false,
-			theme: "colored",
+			theme: "light",
 			progress: undefined,
 		});
 	}

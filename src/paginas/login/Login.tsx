@@ -61,13 +61,14 @@ function Login() {
 		try {
 			await login(`/usuarios/logar`, userLogin, setRespUserLogin)
 			toast.success('Usuario logado com sucesso', {
+				icon: "👋",
 				position: "top-right",
 				autoClose: 2000,
 				hideProgressBar: false,
 				closeOnClick: true,
 				pauseOnHover: false,
 				draggable: false,
-				theme: "colored",
+				theme: "light",
 				progress: undefined,
 			});
 		} catch (error) {
@@ -78,7 +79,7 @@ function Login() {
 				closeOnClick: true,
 				pauseOnHover: false,
 				draggable: false,
-				theme: "colored",
+				theme: "light",
 				progress: undefined,
 			});
 		}

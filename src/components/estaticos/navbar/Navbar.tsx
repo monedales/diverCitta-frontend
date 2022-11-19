@@ -19,14 +19,15 @@ function Navbar() {
 
 	function goLogout() {
 		dispatch(addToken(''));
-		toast.info('Usuário deslogado', {
+		toast.info('Até mais', {
+			icon: "🤝",
 			position: 'top-right',
 			autoClose: 2000,
 			hideProgressBar: false,
 			closeOnClick: true,
 			pauseOnHover: false,
 			draggable: false,
-			theme: 'colored',
+			theme: 'light',
 			progress: undefined,
 		});
 		navigate('/login');
@@ -77,7 +78,7 @@ function Navbar() {
 						</Link>
 
 						<Link to="/login" className="text-decorator-none">
-							<Box mx={1} className="cursor">
+							<Box mx={1} className="cursor" onClick={goLogout}>
 								<Typography variant="h6" color="inherit">
 									Logout
 								</Typography>

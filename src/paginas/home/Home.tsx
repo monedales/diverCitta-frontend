@@ -24,7 +24,7 @@ function Home() {
 				closeOnClick: true,
 				pauseOnHover: false,
 				draggable: false,
-				theme: "colored",
+				theme: "light",
 				progress: undefined,
 			});
 			navigate("/login")
