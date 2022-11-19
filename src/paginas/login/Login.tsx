@@ -87,10 +87,10 @@ function Login() {
 
 
 	return (
-		<Grid container direction="row" justifyContent="center" alignItems="center">
+		<Grid className="back" container direction="row" justifyContent="center" alignItems="center">
 			<Grid alignItems="center" xs={6}>
-				<Box paddingX={20}>
-					<form onSubmit={onSubmit}>
+				<Box className="form" paddingX={9}>
+					<form  onSubmit={onSubmit}>
 						<Typography
 							variant="h3"
 							gutterBottom
@@ -119,7 +119,7 @@ function Login() {
 							fullWidth
 						/>
 						<Box marginTop={2} textAlign="center">
-							<Button type="submit" variant="contained" color="primary">
+							<Button  className="botao1" type="submit" variant="contained">
 								Logar
 							</Button>
 						</Box>
@@ -130,12 +130,12 @@ function Login() {
 								Não tem uma conta?
 							</Typography>
 						</Box>
-						<Link to="/cadastrousuario" className="text-decorator-none">
+						<Link to="/cadastrousuario" className="text-decorator-none negrito">
 							<Typography
 								variant="subtitle1"
 								gutterBottom
 								align="center"
-								className="textos1"
+								
 							>
 								Cadastre-se
 							</Typography>

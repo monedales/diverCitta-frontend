@@ -24,7 +24,7 @@ function Footer() {
 				alignItems="center"
 			>
 				<Grid alignItems="center" item xs={12}>
-					<Box style={{ backgroundColor: '#3F51B5', height: '120px' }}>
+					<Box className="box1" style={{ backgroundColor: '#3F51B5', height: '120px' }}>
 						
 						<Box
 							paddingTop={1}
@@ -62,7 +62,7 @@ function Footer() {
 							</a>
 						</Box>
 					</Box>
-					<Box style={{ backgroundColor: '#303F9F', height: '60px' }}>
+					<Box className="box1" style={{ backgroundColor: '#303F9F', height: '60px' }}>
 						<Box paddingTop={1}>
 							<Typography
 								variant="subtitle2"
@@ -80,6 +80,7 @@ function Footer() {
 									gutterBottom
 									style={{ color: 'white' }}
 									align="center"
+									className='text-decorator-none'
 								>
 									brasil.generation.org
 								</Typography>
