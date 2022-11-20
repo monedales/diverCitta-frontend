@@ -42,12 +42,15 @@ function Navbar() {
 
 					{/* <Typography variant="body2" component="p">
 						<img src={user.foto} alt="Imagem do Usuário" width="200px" height="200px" />
-					</Typography> */}
+					</Typography> */}		
 
+		
 					<Box>
-						<Typography variant="h5" color="inherit">
-							DiverCitta
+						<Link to='/home'>
+						<Typography className="logotipo">
+							<img src="https://i.imgur.com/52548Pp.png" alt="Logo Divercittà" />
 						</Typography>
+						</Link>
 					</Box>
 
 					<Grid  container direction="row" justifyContent="center" className="menu">

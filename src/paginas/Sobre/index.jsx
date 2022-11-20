@@ -175,7 +175,7 @@ function CardTeam() {
 				</div>
 				<div className="card-info">
 					<p>
-
+						Hey! eu sou a Lucy tenho 21 anos, sou curiosa, dedicada e corajosa, buscando trilhar novos caminhos. Gostaria de saber mais sobre minha jornada acadêmica e ver meu portfólio? Clique aqui em baixo
 					</p>
 				</div>
 				<div className="card-social">
