@@ -1,4 +1,5 @@
 .card--content {
+	background-image: url("https://i.imgur.com/il4e1Qn.jpeg");
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -8,7 +9,7 @@
 
 .card--container {
 	width: 17rem;
-	border: 1px solid #cfcfcf91;
+	border: 1px solid #E4AFFF;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -24,6 +25,7 @@
 .card--container:hover {
 	transform: scale(1.03);
 	box-shadow: 10px 10px 12px -13px rgba(0, 0, 0, 0.75);
+	
 }
 
 .card-img {
@@ -38,8 +40,8 @@
 }
 
 .card-title {
-	line-height: 7px;
-	font-size: 15px;
+	line-height: 15px;
+	font-size: 18px;
 	width: 100%;
 	text-align: center;
 	margin: 0.5rem 0 0.2rem 0;
@@ -52,19 +54,19 @@
 .card-title p {
 	color: #7d8285;
 	text-align: center;
-	font-size: 14px;
+	font-size: 18px;
 	padding: 10px 2px;
 }
 
 .card-info {
-	padding: 0 2px;
+	padding: 0 1px;
 	text-align: center;
-	color: #7d8285;
-	font-size: 12px;
+	color: #565656;
+	font-size: 16px;
 }
 
 .card-info>p {
-	text-align: justify;
+	text-align: center;
 }
 
 .card-social {
@@ -72,7 +74,20 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	gap: 15px;
+	gap: 15px;	
+}
+
+.card-social a {
+	padding-top: 25px;
+}
+
+.card-social img {
+	width: 35px;
+	height: 35px;
+}
+
+.span {
+	color: rgb(54, 54, 192);
 }
 
 .card-social>a>i {

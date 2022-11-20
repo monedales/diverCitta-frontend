@@ -12,6 +12,13 @@
     color: #FFF268!important;
 }
 
+.menu{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: end !important;
+    
+}
+
 
 /*
 #b9eb90;

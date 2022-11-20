@@ -19,26 +19,22 @@ function CardTeam() {
 				</div>
 				<div className="card-social">
 					<a
-						href="https://github.com/Rafa-Moura"
+						href="https://github.com/CristalyA"
 						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-github"></i>
+						rel="noreferrer"					>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="ícone Github"></img>
 					</a>
+
 					<a
-						href="https://www.linkedin.com/in/rafael-moura-a0111411b/"
+						href="https://www.linkedin.com/in/cristaly-alves-medeiros/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="bi bi-linkedin"></i>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="ícone Linkedin"></img>
 					</a>
-					<a
-						href="https://www.instagram.com/mourarafaell/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-instagram"></i>
-					</a>
+
 				</div>
 			</div>
 			<div className="card--container col-md-6 col-lg-4">
@@ -51,19 +47,25 @@ function CardTeam() {
 				</div>
 				<div className="card-info">
 					<p>
-
+						Mais de Oito anos de experiência na área Financeira. Estou em transição de carreira para área de tecnologia. Sou formada em Administração pela PUC/SP . Amo estudar, aprender coisas novas e apaixonada por Tecnologia.
 					</p>
 				</div>
 				<div className="card-social">
-					<a href="https://github.com/Gi-LD" target="_blank" rel="noreferrer">
-						<i className="bi bi-github"></i>
-					</a>
 					<a
-						href="https://www.instagram.com/duartx.jpg/"
+						href="https://github.com/eliane-sp-silva"
+						target="_blank"
+						rel="noreferrer"					>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="ícone Github"></img>
+					</a>
+
+					<a
+						href="https://www.linkedin.com/in/elianespsilva-dev/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="bi bi-instagram"></i>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="ícone Linkedin"></img>
 					</a>
 				</div>
 			</div>
@@ -82,18 +84,20 @@ function CardTeam() {
 				</div>
 				<div className="card-social">
 					<a
-						href="https://github.com/naassom-pedro/naassom-pedro"
+						href="https://github.com/juliana-nonaka"
 						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-github"></i>
+						rel="noreferrer"					>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="ícone Github"></img>
 					</a>
+
 					<a
-						href="https://www.linkedin.com/in/naassom-pedro-4aa00995/"
+						href="https://www.linkedin.com/in/juliana-nonaka-udvari"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="bi bi-linkedin"></i>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="ícone Linkedin"></img>
 					</a>
 				</div>
 			</div>
@@ -107,30 +111,25 @@ function CardTeam() {
 				</div>
 				<div className="card-info">
 					<p>
-
+						Meu nome é Letícia Santos, tenho 28 anos. Estou em transição de carreira, venho da área administrativa e me dispondo novamente ao mercado de trabalho, depois de um período me dedicando a maternidade. A tecnologia é uma área que me fascina desde meus 6 anos, quando usei PAINT pela primeira vez. Talvez seja por isso, que eu tenha me identificado mais com o Frontend.
 					</p>
 				</div>
 				<div className="card-social">
 					<a
-						href="https://github.com/JanilsonCoimbra"
+						href="https://github.com/leticiasantos94"
 						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-github"></i>
+						rel="noreferrer"					>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="ícone Github"></img>
 					</a>
+
 					<a
-						href="https://www.linkedin.com/in/janilson-coimbra-780761209/"
+						href="https://www.linkedin.com/in/letícia-santos/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="bi bi-linkedin"></i>
-					</a>
-					<a
-						href="https://www.instagram.com/janilsoncoimbra/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-instagram"></i>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="ícone Linkedin"></img>
 					</a>
 				</div>
 			</div>
@@ -149,25 +148,20 @@ function CardTeam() {
 				</div>
 				<div className="card-social">
 					<a
-						href="https://github.com/RosanaRodriguesLopes"
+						href="https://github.com/monedales"
 						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-github"></i>
+						rel="noreferrer"					>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="ícone Github"></img>
 					</a>
+
 					<a
-						href="https://www.linkedin.com/in/rosana-lopes/"
+						href="https://www.linkedin.com/in/leticia-moneda/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="bi bi-linkedin"></i>
-					</a>
-					<a
-						href="https://www.instagram.com/rosanalope_/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-instagram"></i>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="ícone Linkedin"></img>
 					</a>
 				</div>
 			</div>
@@ -186,25 +180,20 @@ function CardTeam() {
 				</div>
 				<div className="card-social">
 					<a
-						href="https://github.com/eliane-sp-silva"
+						href="https://github.com/lucysuxo"
 						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-github"></i>
+						rel="noreferrer"					>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="ícone Github"></img>
 					</a>
+
 					<a
-						href="https://www.linkedin.com/in/eliane-dos-santos-pereira-silva-4a772026/"
+						href="https://www.linkedin.com/in/lucysuxo/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="bi bi-linkedin"></i>
-					</a>
-					<a
-						href="https://www.instagram.com/elianespsilva/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-instagram"></i>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="ícone Linkedin"></img>
 					</a>
 				</div>
 			</div>
@@ -219,30 +208,25 @@ function CardTeam() {
 				</div>
 				<div className="card-info">
 					<p>
-
+						Sou desenvolvedora Java Full Stack pela Generation Brasil. Academicamente, sou tecnóloga em Microeletrônica e já atuei como analista de P&D. Tenho familiaridade com as tecnologias: <span className="span">Java, Springboot, SQL, HTML, CSS, JavaScript, React e Typescript</span>.
 					</p>
 				</div>
 				<div className="card-social">
 					<a
-						href="https://github.com/eliane-sp-silva"
+						href="https://github.com/mayumisiano"
 						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-github"></i>
+						rel="noreferrer"					>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="ícone Github"></img>
 					</a>
+
 					<a
-						href="https://www.linkedin.com/in/eliane-dos-santos-pereira-silva-4a772026/"
+						href="https://www.linkedin.com/in/paulamsiano/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="bi bi-linkedin"></i>
-					</a>
-					<a
-						href="https://www.instagram.com/elianespsilva/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="bi bi-instagram"></i>
+
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="ícone Linkedin"></img>
 					</a>
 				</div>
 			</div>
