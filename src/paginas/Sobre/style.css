@@ -1,4 +1,5 @@
-.card--content {
+.card--content {	
+	background-image: url(https://static.vecteezy.com/system/resources/previews/003/588/032/original/pastel-ombre-background-in-pink-and-purple-vector.jpg);
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -8,7 +9,8 @@
 
 .card--container {
 	width: 17rem;
-	border: 1px solid #E4AFFF;
+	border: 1px solid #3F1158;
+	box-shadow: 2px 2px 6px #4b4b4b;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -47,11 +49,11 @@
 }
 
 .card-title h4 {
-	color: #565656;
+	color: #3c3c3c;
 }
 
 .card-title p {
-	color: #7d8285;
+	color: #393939;
 	text-align: center;
 	font-size: 18px;
 	padding: 10px 2px;
@@ -60,7 +62,7 @@
 .card-info {
 	padding: 0 1px;
 	text-align: center;
-	color: #565656;
+	color: #222222;
 	font-size: 16px;
 }
 

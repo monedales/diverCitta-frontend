@@ -1,9 +1,11 @@
 import React from "react";
 import "./style.css";
+import { Typography } from '@material-ui/core';
 
 function CardTeam() {
 	return (
-		<div className="card--content row container">
+
+		<div className="card--content row container">			
 			<div className="card--container col-md-6 col-lg-4">
 				<div className="card-img">
 					<img src={'https://avatars.githubusercontent.com/u/111661489?v=4'} alt="img team" />
@@ -230,7 +232,7 @@ function CardTeam() {
 					</a>
 				</div>
 			</div>
-		</div>
+		</div>		
 	);
 }
 
