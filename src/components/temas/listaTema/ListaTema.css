@@ -2,6 +2,28 @@
     text-decoration: none;
 }
 
+/*CSS BACK e cards*/
+.backTema {
+	background-color: #E4AFFF !important;
+	background-image: url(https://static.vecteezy.com/system/resources/previews/003/588/032/original/pastel-ombre-background-in-pink-and-purple-vector.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 100vh;	
+	background-size: cover;
+}
+
+.listaTemas
+{
+  display: flex;
+  flex-flow: row wrap;
+  word-wrap: break-word;
+  align-self: auto;
+  justify-content: center;
+  border-radius: 13px !important;
+  box-shadow: 1px 3px 7px 1px #615865;
+}
+
+
 /*CSS do Loader*/
 
 .loader-content {

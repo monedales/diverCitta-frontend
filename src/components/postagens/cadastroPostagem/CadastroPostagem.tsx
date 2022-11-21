@@ -8,6 +8,7 @@ import Tema from "../../../model/Tema";
 import User from "../../../model/User";
 import { busca, buscaId, put, post } from "../../../services/Service";
 import { TokenState } from "../../../store/tokens/tokensReducer";
+//importar css
 
 function CadastroPostagem() {
 
@@ -149,7 +150,7 @@ function CadastroPostagem() {
 	}
 
 	return (
-		<Container maxWidth="sm" className="topo">
+		<Container maxWidth="sm" className="backCadPost">
 			<form onSubmit={onSubmit} >
 				<Typography variant="h4" color="textSecondary" component="h1" align="center" >{id === undefined ? <span>Cadastre</span> : <span>Atualize</span>} sua postagem:</Typography>
 				<FormControl >

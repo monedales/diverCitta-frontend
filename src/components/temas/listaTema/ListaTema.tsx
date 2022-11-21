@@ -1,3 +1,4 @@
+import { Grid } from "@material-ui/core";
 import { Box, Button, Card, CardActions, CardContent, Typography } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
@@ -50,12 +51,12 @@ function ListaTema() {
         <>
             {temas.length === 0 && <div className="loader-content"><span className="loader"></span></div>}
 
-
+        <Grid container className="backTema">
             {temas.map(tema => (
-                <Box m={2}>
-                    <Card variant="outlined">
+                <Box m={2} className="listaTemas">
+                    <Card variant="outlined" className="corCard">
                         <CardContent>
-                            <Typography color="textSecondary" gutterBottom>
+                            <Typography variant="h6" color="textSecondary" gutterBottom>
                                 Tema
                             </Typography>
 
@@ -65,21 +66,20 @@ function ListaTema() {
                         </CardContent>
 
                         <CardActions>
-                            <Box display="flex" justifyContent="center" mb={1.5}>
+                            <Box display="flex" mb={1.5}>
                                 <Link to={`/formularioTema/${tema.id}`} className="text-decorator-none">
-                                    <Box mx={1}>
+                                    <Box mx={1} className="boxBotao">
                                         <Button
                                             variant="contained"
-                                            className="marginLeft"
-                                            size="small"
-                                            color="primary">
+                                            className="marginLeft botaoA"
+                                            size="small">
                                             Atualizar
                                         </Button>
                                     </Box>
                                 </Link>
                                 <Link to={`/deletarTema/${tema.id}`} className="text-decorator-none">
                                     <Box mx={1}>
-                                        <Button variant="contained" size="small" color="secondary">
+                                        <Button variant="contained" className="botaoD" size="small">
                                             Deletar
                                         </Button>
                                     </Box>
@@ -90,6 +90,7 @@ function ListaTema() {
                 </Box>
             ))
             }
+             </Grid>
         </>
     );
 
