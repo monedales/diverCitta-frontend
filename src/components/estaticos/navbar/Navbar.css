@@ -12,6 +12,20 @@
     color: #FFF268!important;
 }
 
+.menu{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: end !important;
+    
+}
+
+/* .logotipo{
+    font-family: "Baron Neue Black" !important;    
+    color: white;   
+    font-size: 40px !important; 
+    padding-bottom: 15px;
+} */
+
 
 /*
 #b9eb90;
