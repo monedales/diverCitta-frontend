@@ -179,7 +179,7 @@ function CadastroPostagem() {
 
 				<TextField value={postagem.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="foto" label="foto" name="foto" variant="outlined" placeholder='Insira a URL da sua foto' margin="normal" fullWidth required/>
 
-				<Button type='submit' variant='contained' color='primary'>
+				<Button type='submit' variant='contained'>
 					Finalizar
 				</Button>
 			</form>

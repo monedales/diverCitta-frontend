@@ -81,8 +81,6 @@ function ListaPostagem() {
 		<>
 			{postagem.length === 0 && <div className="loader-content"><span className="loader"></span></div>}
 
-
-
 			<Grid container className="backPost">
 				{postagem.map((postagem, i) => (
 					<Box m={2} className="postagens" >
@@ -91,16 +89,16 @@ function ListaPostagem() {
 								<Typography variant="h5" component="h2">
 									{postagem.titulo}
 								</Typography>
-								<Typography variant="body2" component="p">
+								<Typography variant="body1" component="p">
 									Postado em: {new Date(Date.parse(postagem.data)).toLocaleDateString()} <br />
 								</Typography>
-								<Typography variant="body1" component="p">
+								<Typography variant="subtitle1" component="p">
 									{postagem.tema?.descricao}
 								</Typography>
 								<Typography variant="body2" component="p" >
 									<img src={postagem.foto} width="200px" height="190px" />
 								</Typography>
-								<Typography variant="body2" component="p">
+								<Typography variant="body1" component="p">
 									Postagem por: {postagem.usuario?.nome}
 								</Typography>
 							</CardContent>

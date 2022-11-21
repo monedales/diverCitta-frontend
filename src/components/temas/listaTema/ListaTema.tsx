@@ -51,46 +51,46 @@ function ListaTema() {
         <>
             {temas.length === 0 && <div className="loader-content"><span className="loader"></span></div>}
 
-        <Grid container className="backTema">
-            {temas.map(tema => (
-                <Box m={2} className="listaTemas">
-                    <Card variant="outlined" className="corCard">
-                        <CardContent>
-                            <Typography variant="h6" color="textSecondary" gutterBottom>
-                                Tema
-                            </Typography>
+            <Grid container className="backTema">
+                {temas.map(tema => (
+                    <Box m={2} className="listaTemas">
+                        <Card variant="outlined" className="cardTemas">
+                            <CardContent>
+                                <Typography variant="h6" gutterBottom>
+                                    Tema
+                                </Typography>
 
-                            <Typography variant="h5" component="h2">
-                                {tema.descricao}
-                            </Typography>
-                        </CardContent>
+                                <Typography variant="h5" component="h2">
+                                    {tema.descricao}
+                                </Typography>
+                            </CardContent>
 
-                        <CardActions>
-                            <Box display="flex" mb={1.5}>
-                                <Link to={`/formularioTema/${tema.id}`} className="text-decorator-none">
-                                    <Box mx={1} className="boxBotao">
-                                        <Button
-                                            variant="contained"
-                                            className="marginLeft botaoA"
-                                            size="small">
-                                            Atualizar
-                                        </Button>
-                                    </Box>
-                                </Link>
-                                <Link to={`/deletarTema/${tema.id}`} className="text-decorator-none">
-                                    <Box mx={1}>
-                                        <Button variant="contained" className="botaoD" size="small">
-                                            Deletar
-                                        </Button>
-                                    </Box>
-                                </Link>
-                            </Box>
-                        </CardActions>
-                    </Card>
-                </Box>
-            ))
-            }
-             </Grid>
+                            <CardActions>
+                                <Box display="flex" mb={1.5}>
+                                    <Link to={`/formularioTema/${tema.id}`} className="text-decorator-none">
+                                        <Box mx={1} className="boxBotao">
+                                            <Button
+                                                variant="contained"
+                                                className="marginLeft botaoA"
+                                                size="small">
+                                                Atualizar
+                                            </Button>
+                                        </Box>
+                                    </Link>
+                                    <Link to={`/deletarTema/${tema.id}`} className="text-decorator-none">
+                                        <Box mx={1}>
+                                            <Button variant="contained" className="botaoD" size="small">
+                                                Deletar
+                                            </Button>
+                                        </Box>
+                                    </Link>
+                                </Box>
+                            </CardActions>
+                        </Card>
+                    </Box>
+                ))
+                }
+            </Grid>
         </>
     );
 
