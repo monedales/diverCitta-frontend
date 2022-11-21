@@ -1,11 +1,14 @@
 import React from "react";
 import "./style.css";
-import { Typography } from '@material-ui/core';
+
 
 function CardTeam() {
-	return (
 
-		<div className="card--content row container">			
+	return (	
+		<div className="intropagina">
+			<h1 id="titulo">Conheça nosso time de desenvolvedoras:</h1>
+			
+		<div className="card--content row container">
 			<div className="card--container col-md-6 col-lg-4">
 				<div className="card-img">
 					<img src={'https://avatars.githubusercontent.com/u/111661489?v=4'} alt="img team" />
@@ -81,7 +84,8 @@ function CardTeam() {
 				</div>
 				<div className="card-info">
 					<p>
-
+						Olá! Sou a Juliana, tenho 25 anos, sou formada em Direito e atualmente estou em transição de carreira para a área da tecnologia, tenho conhecimento em Backend e Frontend.
+						Clique abaixo para conhecer meu portfólio e acompanhar minha trajetória até aqui
 					</p>
 				</div>
 				<div className="card-social">
@@ -113,7 +117,7 @@ function CardTeam() {
 				</div>
 				<div className="card-info">
 					<p>
-						Meu nome é Letícia Santos, tenho 28 anos. Estou em transição de carreira, venho da área administrativa e me dispondo novamente ao mercado de trabalho, depois de um período me dedicando a maternidade. A tecnologia é uma área que me fascina desde meus 6 anos, quando usei PAINT pela primeira vez. Talvez seja por isso, que eu tenha me identificado mais com o Frontend.
+						Meu nome é Letícia Santos, tenho 28 anos. Estou em transição de carreira, venho da área administrativa e me dispondo novamente ao mercado de trabalho, depois de um período me dedicando a maternidade. 
 					</p>
 				</div>
 				<div className="card-social">
@@ -232,7 +236,8 @@ function CardTeam() {
 					</a>
 				</div>
 			</div>
-		</div>		
+		</div>
+		</div>
 	);
 }
 
