@@ -45,19 +45,25 @@ function Home() {
 							gutterBottom color="textPrimary"
 							component="h5" align="center"
 							className='titulo'>
+							Aqui falamos e apoiamos inclusão e diversidade! 
 							inclui aí: façam parte dessa mudança! </Typography>
 					</Box>
-					<Box display="flex" justifyContent="center">
-						<Box marginRight={1}>
+					<Box display="flex" justifyContent="center" className='espacoBotao'>
+						<Box marginRight={1} >
 							<ModalPostagem />
 						</Box>
-						<Link to='/posts' className='text-decorator-none'>
-							<Button variant="outlined" className='botao'>Ver Postagens</Button>
+						<Link to='/posts' className='text-decorator-none '>
+							<Button variant="outlined" className='botao2'>Ver Postagens</Button>
 						</Link>
 					</Box>
 				</Grid>
 				<Grid item xs={6} >
-					<img src="https://i.imgur.com/9FT6TuF.png" alt="" width="700px" height="700px" />
+					<img src="https://i.imgur.com/9FT6TuF.png" alt="É uma imagem de 5 crianças, uma menina negra de cabelo preto com braço esquerdo 
+					robotico de laço no cabelo amarelo camiseta branca por de baixo do vestido vestido também amarelo.Um menino branco com a 
+					perna esquerda amputada cabelo marrom claro	camiseta azul e shorts vermelho. Um menino branco de cabelo loiro de cadeira 
+					de rodas de blusa branca e calça amarela a cadeira de rodas é azul.	Uma menina branca cega de oculos escuros blusa roxa e
+					saia rosa e com uma bengala branca. E um meninobranco cabelo marrom escuro de blusa vermelha e calça marrom com a perna 
+					direita amputada  um" width="700px" height="700px" />
 				</Grid>
 				
 			</Grid>
