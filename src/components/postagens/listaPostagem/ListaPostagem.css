@@ -65,7 +65,7 @@
 .postagens {
   width: 20vw;
   background-color: #f8f1a3 !important;
-  background: linear-gradient(to bottom, #dba3f7  0%,#f0e352  43%,#ebdf59 51%,#9971ae 100%);
+  background: linear-gradient(to bottom,   #dba3f7 0%,#dfdcb5  40%, #dfda9e 57%, #9971ae 100%);
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -82,7 +82,7 @@
 {
   background-color: #f8f1a3 !important;
   color: #2d2b2b !important;
-  background: linear-gradient(to bottom,  #dba3f7  0%,#f0e352  43%,#ebdf59 51%,#9971ae 100%);
+  background: linear-gradient(to bottom,  #dba3f7 0%,#dfdcb5  40%, #dfda9e 57%, #9971ae 100%);
   word-wrap: break-word;
   border: none !important;
   display: flex;
