@@ -9,13 +9,24 @@
 	text-align: center;
 	background-color: #cb9de1;
 	color: #3f1158 !important;
-    margin: 0; 
+    padding: 10px 5px 5px 5px !important;
+   
 }
 
 .botao{
-    background-color:  #3f1158 !important;
+    background-color: #3f1158 !important;
+  width: 50px;
+  color: #d0e7be !important;
+  font-size: 17px !important;
+  letter-spacing: 1px !important;
+  
+}
+
+.botaoDel{
+    background-color:  #713691 !important;
     color:#f3e7f5!important;
     font-weight: "bold";
+    letter-spacing: 1px !important;
     width: 30px ;
     height: 30px;
 }
@@ -25,7 +36,7 @@
    
 }
 
-.back2{
+.backDel{
 	padding: 110px;
 }
 
