@@ -74,28 +74,32 @@ function DeletarPostagem() {
 
 	return (
 		<>
-	<Container className='back2' >			
-						<Box className= 'form1' justifyContent="center">
-							<Typography className='botoes' color="textSecondary" gutterBottom>
-								     Deseja deletar a Postagem:    
-							</Typography>
-							<Typography className='botoes' color="textSecondary" >
-								{post?.titulo}
-							</Typography>
-							<Box className='alinhar' display="flex" justifyContent="start" ml={1.0} mb={2} >
-								<Box mx={2}>
-									<Button className='botao' onClick={sim} variant="contained" size='large'>
-									Sim
-									</Button>
-							</Box>
-								<Box>
-									<Button className='botao' onClick={nao} variant="contained" size='large'>
-									Não
-									</Button>
-								</Box>
-							</Box>
-						</Box>			
+		<div className='backDel' >
+		<Container >
+				<Box className='form1' justifyContent="center">
+					<Typography variant="h5" color="textSecondary" gutterBottom>
+						Deseja deletar a Postagem:
+					</Typography>
+					<Typography  variant="h6" color="textSecondary" >
+						{post?.titulo}
+					</Typography>
+					<Box className='boxBotao' display="flex" justifyContent="center" ml={1.0} mb={2} >
+						<Box mx={1.5}>
+							<Button className='botao' onClick={sim} variant="contained" size='large'>
+								Sim
+							</Button>
+						</Box>
+						<Box>
+							<Button className='botaoDel' onClick={nao} variant="contained" size='large'>
+								Não
+							</Button>
+						</Box>
+					</Box>
+				</Box>
 			</Container>
+
+		</div>
+			
 		</>
 	);
 }

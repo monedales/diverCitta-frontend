@@ -78,31 +78,31 @@ function DeletarTema() {
 
     return (
         <>
-        <Container className='back2' >			
-                            <Box className= 'form1' justifyContent="center">
-                                <Typography className='botoes' color="textSecondary" gutterBottom>
-                                         Deseja excluir o Tema:    
-                                </Typography>
-                                <Typography className='botoes' color="textSecondary" >
-                                   
-                                </Typography>
-                                <Box className='alinhar' display="flex" justifyContent="start" ml={1.0} mb={2} >
-                        <Box className='alinhar' display="flex" justifyContent="start" ml={1.0} mb={2}>
-                        <Box mx={2}>
-									<Button className='botao' onClick={sim} variant="contained" size='large'>
-									Sim
-									</Button>
-							</Box>
-								<Box>
-									<Button className='botao' onClick={nao} variant="contained" size='large'>
-									Não
-									</Button>
-								</Box>
-							</Box>
-						</Box>		
-                        </Box>	
-			</Container>
-		</>
+        <div className='backDel'>
+        <Container  >
+                <Box className='form1' justifyContent="center">
+                    <Typography  variant="h5" gutterBottom>
+                        Deseja excluir o Tema:
+                    </Typography>
+                    <Box  display="flex" justifyContent="center"  mb={5} >
+                        <Box  display="flex" justifyContent="start" ml={1.5} mb={2}>
+                            <Box mx={2} className="boxBotao">
+                                <Button className='botaoA' onClick={sim} variant="contained" size='large'>
+                                    Sim
+                                </Button>
+                            </Box>
+                            <Box>
+                                <Button className='botaoD' onClick={nao} variant="contained" size='large'>
+                                    Não
+                                </Button>
+                            </Box>
+                        </Box>
+                    </Box>
+                </Box>
+            </Container>
+        </div>
+            
+        </>
     );
 }
 
